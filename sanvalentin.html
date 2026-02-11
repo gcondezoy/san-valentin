@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Para mi persona favorita ❤️</title>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,600;1,400&family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="particles-container"></div>
+    
+    <main class="card" id="main-card">
+        <div class="card-content" id="initial-content">
+            <header class="fade-in">
+                <span class="badge">14.02.26</span>
+                <h1>¿Pasarías San Valentín conmigo?</h1>
+            </header>
+            
+            <p class="description fade-in-delay">
+                He preparado este pequeño detalle porque eres lo más especial para mí. 
+            </p>
+
+            <div class="interactive-zone fade-in-delay">
+                <button id="btn-yes" class="btn primary">¡Sí, acepto! ❤️</button>
+                <button id="btn-no" class="btn secondary">Déjame pensarlo...</button>
+            </div>
+        </div>
+        
+        <div id="success-message" class="hidden">
+            <div class="heart-icon-container">
+                <div class="main-heart">✨❤️✨</div>
+                <div class="heart-aura"></div>
+            </div>
+
+            <h2 class="typing-title">¡Me haces inmensamente feliz!</h2>
+            
+            <div class="romantic-text-container">
+                <p id="dynamic-text"></p>
+            </div>
+
+            <div class="plan-details">
+                <div class="detail-item">
+                    <strong>Lugar</strong>
+                    <span>Tu casa 🥂</span>
+                </div>
+                <div class="detail-item">
+                    <strong>Fecha</strong>
+                    <span>14.02.26</span>
+                </div>
+            </div>
+
+            <button id="btn-whatsapp" class="btn whatsapp">
+                Confirmar cita ✨❤️✨
+            </button>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
